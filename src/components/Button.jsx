@@ -8,10 +8,13 @@ export default function Button() {
     </div>
   );
 }
-
-export function ButtonTitle({ title }) {
+// Props
+export function ButtonTitle({ title, onClick }) {
   return (
-    <button className="rounded bg-blue-500 px-4 py-2 text-white">
+    <button
+      className="rounded bg-blue-500 px-4 py-2 text-white"
+      onClick={onClick}
+    >
       {title}
     </button>
   );

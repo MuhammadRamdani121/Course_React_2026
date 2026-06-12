@@ -4,11 +4,11 @@ import Halaman2 from "../pages/Halaman2";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Home",
     element: <Home />,
   },
   {
-    path: "/",
+    path: "/halaman2",
     element: <Halaman2 />,
   },
 ]);
