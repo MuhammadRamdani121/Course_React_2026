@@ -1,8 +1,8 @@
-export default function Jsx() {
+export default function Props_2() {
   return (
     <div>
       <h1 className="text-lg font-bold">Ini Adalah JSX</h1>
-      <span>JSX Code Html Bisa Masuk</span>
+      <span>JSX Code Html Bisa Masukasdasdsad</span>
       <pre>
         <code className="text-xl font-bold">
           {`
