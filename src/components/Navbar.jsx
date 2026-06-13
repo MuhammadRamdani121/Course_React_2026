@@ -5,6 +5,7 @@ export default function Navbar() {
       <h1>Belajar React</h1>
       <nav className="flex gap-2">
         <Link to="/Home">Beranda</Link>
+        <Link to="/TodoHalaman">Halaman Todo</Link>
         <Link to="/Halaman2">Halaman2</Link>
       </nav>
     </div>
