@@ -26,6 +26,13 @@ export default function Minggu_1() {
           >
             Props
           </Link>
+
+          <Link
+            to="Component_2"
+            className="rounded p-2 hover:bg-gray-200"
+          >
+            Component
+          </Link>
         </div>
       </aside>
 

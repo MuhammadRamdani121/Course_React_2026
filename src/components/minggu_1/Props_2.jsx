@@ -14,9 +14,9 @@ export default function Props_2() {
             {`
             export default function JSX(){
             return(
-            <>
-            <h1>Ini jSX</h1>
-            </>
+            <button className="border-2 bg-black p-2 text-white">
+             Ini Contoh button
+           </button>
             )}
             `}
           </code>
