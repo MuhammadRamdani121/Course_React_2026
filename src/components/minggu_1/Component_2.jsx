@@ -7,7 +7,16 @@ export default function Component_2() {
       <pre>
         <code>
           {`
-            <span>Memecah Memecah UI Menjadi Bagian Kecil</span>
+            export default function Component(){
+            return(
+            <div>
+              <button>
+              Ini Component
+              </button>
+            
+            </div>
+            
+            )}
             `}
         </code>
       </pre>

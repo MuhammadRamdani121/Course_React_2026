@@ -1,7 +1,7 @@
 export default function Jsx_1() {
   return (
     <div>
-      <h1 className="text-lg font-bold">Ini Adalah JSX</h1>
+      <h1 className="text-lg font-bold"> JSX</h1>
       <span>JSX Code Html Bisa Masuk</span>
       <pre>
         <code className="text-xl font-bold">
