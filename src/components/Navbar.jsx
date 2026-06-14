@@ -32,6 +32,12 @@ export default function Navbar() {
             >
               Props
             </Link>
+            <Link
+              to="/minggu_1/Event_4"
+              className="block px-4 py-2 hover:bg-gray-100"
+            >
+              Event Klik
+            </Link>
           </div>
         </div>
 

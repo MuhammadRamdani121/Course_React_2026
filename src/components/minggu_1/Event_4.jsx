@@ -17,8 +17,6 @@ export default function Event_4() {
                 Klik
                 </button>
                 </div>
-                
-                
                 )}
                 
                 

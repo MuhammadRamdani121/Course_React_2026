@@ -33,6 +33,13 @@ export default function Minggu_1() {
           >
             Props
           </Link>
+
+          <Link
+            to="Event_4"
+            className="rounded p-2 hover:bg-gray-200"
+          >
+            Event Klik
+          </Link>
         </div>
       </aside>
 
