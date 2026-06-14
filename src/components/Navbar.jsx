@@ -20,7 +20,14 @@ export default function Navbar() {
             </Link>
 
             <Link
-              to="/minggu_1/Props_2"
+              to="/minggu_1/Component_2"
+              className="block px-4 py-2 hover:bg-gray-100"
+            >
+              Component
+            </Link>
+
+            <Link
+              to="/minggu_1/Props_3"
               className="block px-4 py-2 hover:bg-gray-100"
             >
               Props

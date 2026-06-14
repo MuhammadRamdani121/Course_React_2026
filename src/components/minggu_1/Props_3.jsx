@@ -1,22 +1,22 @@
 export default function Props_2() {
   return (
     <div>
-      <h1 className="text-lg font-bold">Component</h1>
-      <span>Memecah UI Menjadi Bagian Kecil</span>
+      <h1 className="text-lg font-bold">Props</h1>
+      <span>Data Dari Parent ke child</span>
 
       <div className="flex flex-col gap-10 bg-red-100">
-        <button className="border-2 bg-black p-2 text-white">
-          Ini Contoh button
-        </button>
-
         <pre className="">
           <code className="text-xl font-bold">
             {`
-            export default function JSX(){
+            export default function Component({title}){
             return(
             <button className="border-2 bg-black p-2 text-white">
-             Ini Contoh button
+             {title}
            </button>
+
+
+           nanti di parentnya 
+           <Component title="Nama Title"/>
             )}
             `}
           </code>

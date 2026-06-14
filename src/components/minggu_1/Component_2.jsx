@@ -17,6 +17,11 @@ export default function Component_2() {
             </div>
             
             )}
+
+
+            nanti tinggal panggil di parentnya
+
+            <Component />
             `}
         </code>
       </pre>
