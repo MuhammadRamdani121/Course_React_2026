@@ -10,7 +10,7 @@ export default function Component_2() {
             export default function Component(){
             return(
             <div>
-              <button>
+              <button classname="border-2">
               Ini Component
               </button>
             
