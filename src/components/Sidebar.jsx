@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-export default function Sidebar() {
+export default function Sidebar({ link, nama }) {
   return (
     <div className="-py-3 flex items-center justify-between bg-slate-800 px-6 text-white">
       <h1 className="text-xl font-bold">Belajar React</h1>
 
       <nav className="flex gap-4">
-        <Link>Home</Link>
+        <Link to={link}>{nama}</Link>
       </nav>
     </div>
   );
