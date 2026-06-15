@@ -12,7 +12,9 @@ export default function Todo() {
   }
 
   function handleDelete(indexTodo) {
-    const filteredTodo = todos.filter((_, index) => index !== indexTodo);
+    const filteredTodo = todos.filter(
+      (_, index) => index !== indexTodo,
+    );
     setTodos(filteredTodo);
   }
 
@@ -29,7 +31,10 @@ export default function Todo() {
 
       <div>
         {todos.map((todo, index) => (
-          <div key={index} className="flex items-center gap-2">
+          <div
+            key={index}
+            className="flex items-center gap-2"
+          >
             <span>{todo}</span>
 
             <button
