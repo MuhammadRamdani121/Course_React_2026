@@ -10,7 +10,9 @@ export default function Minggu_1() {
         >
           ← Back to Home
         </Link>
-        <h2 className="mb-4 text-xl font-bold">Minggu 1</h2>
+        <h2 className="mb-4 text-xl font-bold">
+          Minggu 1|React JS
+        </h2>
 
         <div className="flex flex-col gap-2">
           <Link

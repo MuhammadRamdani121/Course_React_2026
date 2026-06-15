@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
 
         <div className="group relative">
-          <button>Minggu 1 ▼</button>
+          <button>React JS ▼</button>
 
           <div className="absolute left-0 hidden min-w-40 rounded bg-white text-black shadow-lg group-hover:block">
             <Link
