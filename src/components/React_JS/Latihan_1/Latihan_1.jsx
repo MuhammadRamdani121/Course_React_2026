@@ -1,4 +1,4 @@
-import User from "../Latihan_1/User";
+import User from "./User";
 
 export default function Latihan_1() {
   return (
