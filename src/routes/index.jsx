@@ -5,6 +5,7 @@ import Jsx_1 from "../components/minggu_1/Jsx_1";
 import Component_2 from "../components/minggu_1/Component_2";
 import Props_3 from "../components/minggu_1/Props_3";
 import Event_4 from "../components/minggu_1/Event_4";
+import Latihan_1 from "../components/minggu_1/Latihan_1/Latihan_1";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "Event_4",
         element: <Event_4 />,
+      },
+      {
+        path: "Latihan_1",
+        element: <Latihan_1 />,
       },
     ],
   },

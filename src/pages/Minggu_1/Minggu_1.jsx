@@ -40,6 +40,13 @@ export default function Minggu_1() {
           >
             Event Klik
           </Link>
+
+          <Link
+            to="Latihan_1"
+            className="rounded p-2 hover:bg-gray-200"
+          >
+            Latihan 1
+          </Link>
         </div>
       </aside>
 
