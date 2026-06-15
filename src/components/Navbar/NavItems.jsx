@@ -1,12 +1,18 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavItems({ link, nama }) {
   return (
-    <Link
+    <NavLink
       to={link}
-      className="block px-4 py-2 hover:bg-slate-200"
+      className={({ isActive }) =>
+        `block rounded p-2 transition-colors ${
+          isActive
+            ? "bg-slate-800 text-white"
+            : "hover:bg-gray-200"
+        }`
+      }
     >
       {nama}
-    </Link>
+    </NavLink>
   );
 }

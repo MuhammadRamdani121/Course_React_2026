@@ -4,7 +4,7 @@ import Navbar2 from "../components/Navbar/Navbar2";
 
 export default function Home() {
   return (
-    <div className="p-10">
+    <div className="">
       <Navbar />
       <Sidebar />
       <Navbar2 />
