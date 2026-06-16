@@ -14,12 +14,27 @@ export default function Navbar() {
           items={[
             {
               nama: "JSX 1",
-              link: "/minggu_1/Jsx_1",
+              link: "/React_JS/Jsx_1",
             },
             {
               nama: "Component 2",
-              link: "/minggu_1/Component_2",
+              link: "/React_JS/Component_2",
             },
+          ]}
+        />
+
+        {/*  */}
+        <MenuNavbar
+          namaMenu="Tailwind Css"
+          items={[
+            {
+              nama: "JSX 1",
+              link: "/Tailwind_CSS/Warna",
+            },
+            // {
+            //   nama: "Component 2",
+            //   link: "/minggu_1/Component_2",
+            // },
           ]}
         />
 

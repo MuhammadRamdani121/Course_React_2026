@@ -18,7 +18,7 @@ export default function Minggu_1() {
 
         <MenuSidebar
           namaMenu="Minggu 1"
-          basePath="/minggu_1"
+          basePath="/React_JS"
           items={[
             {
               nama: "JSX",
@@ -43,7 +43,7 @@ export default function Minggu_1() {
           ]}
         />
 
-        {/* <MenuSidebar
+        <MenuSidebar
           namaMenu="Minggu 1"
           basePath="/minggu_1"
           items={[
@@ -68,7 +68,7 @@ export default function Minggu_1() {
               link: "Latihan_1",
             },
           ]}
-        /> */}
+        />
       </aside>
 
       <main className="flex-1 p-6">
