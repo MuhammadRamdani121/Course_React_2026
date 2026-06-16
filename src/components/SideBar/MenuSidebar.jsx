@@ -37,7 +37,7 @@ export default function MenuSidebar({
         className="flex w-full items-center justify-between rounded p-2 hover:bg-gray-200"
       >
         <span>{namaMenu}</span>
-        <span>{open ? "▼" : "▶"}</span>
+        <span>{open ? "▼" : "➤"}</span>
       </button>
 
       {open && (

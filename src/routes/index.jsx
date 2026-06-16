@@ -12,6 +12,37 @@ export const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
+
+  // Link To Pages React JS
+  {
+    path: "/minggu_1",
+    element: <Minggu_1 />,
+    children: [
+      {
+        path: "Jsx_1",
+        element: <Jsx_1 />,
+      },
+
+      {
+        path: "Component_2",
+        element: <Component_2 />,
+      },
+      {
+        path: "Props_3",
+        element: <Props_3 />,
+      },
+      {
+        path: "Event_4",
+        element: <Event_4 />,
+      },
+      {
+        path: "Latihan_1",
+        element: <Latihan_1 />,
+      },
+    ],
+  },
+
+  //Link To Pages Tailwind CSS
   {
     path: "/minggu_1",
     element: <Minggu_1 />,

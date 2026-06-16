@@ -10,7 +10,7 @@ export default function Navbar() {
         <NavItems link="/" nama="Home" />
 
         <MenuNavbar
-          namaMenu="React"
+          namaMenu="React JS"
           items={[
             {
               nama: "JSX 1",
@@ -23,7 +23,7 @@ export default function Navbar() {
           ]}
         />
 
-        <NavItems link="/todo" nama="Todo" />
+        <NavItems link="/todo" nama="Tailwind" />
       </nav>
     </div>
   );
