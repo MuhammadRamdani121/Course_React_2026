@@ -29,8 +29,8 @@ export default function Index() {
               link: "UkuranText",
             },
             {
-              nama: "Ketebalan Font",
-              link: "KetebalanFont",
+              nama: "Typo Graphy",
+              link: "Typography",
             },
             {
               nama: "Flexbox",

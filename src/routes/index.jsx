@@ -9,7 +9,7 @@ import Event_4 from "../components/React_JS/Event_4";
 import Latihan_1 from "../components/React_JS/Latihan_1/Latihan_1";
 import Warna from "../components/Tailwind_CSS/DasarTailwind/Warna";
 import UkuranText from "../components/Tailwind_CSS/DasarTailwind/UkuranText";
-import KetebalanFont from "../components/Tailwind_CSS/DasarTailwind/KetebalanFont";
+import Typography from "../components/Tailwind_CSS/DasarTailwind/Typography";
 
 export const router = createBrowserRouter([
   {
@@ -61,8 +61,8 @@ export const router = createBrowserRouter([
         element: <UkuranText />,
       },
       {
-        path: "KetebalanFont",
-        element: <KetebalanFont />,
+        path: "Typography",
+        element: <Typography />,
       },
       // {
       //   path: "Event_4",
