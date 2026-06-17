@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import MenuSidebar from "../../components/SideBar/MenuSidebar";
 
-export default function Minggu_1() {
+export default function Index() {
   return (
     <div className="flex min-h-screen">
       <aside className="w-64 border-r bg-gray-100 p-4">
@@ -13,7 +13,7 @@ export default function Minggu_1() {
         </Link>
 
         <h2 className="mb-4 text-xl font-bold">
-          React Roadmap
+          React JS Roadmap
         </h2>
 
         <MenuSidebar
@@ -22,19 +22,19 @@ export default function Minggu_1() {
           items={[
             {
               nama: "JSX",
-              link: "Jsx_1",
+              link: "JSX_1",
             },
             {
-              nama: "Component",
-              link: "Component_2",
+              nama: "Spacing",
+              link: "Spacing",
             },
             {
-              nama: "Props",
-              link: "Props_3",
+              nama: "Sizing",
+              link: "Sizing",
             },
             {
-              nama: "Event Klik",
-              link: "Event_4",
+              nama: "Flexbox",
+              link: "Flexbox",
             },
             {
               nama: "Latihan 1",
@@ -44,28 +44,16 @@ export default function Minggu_1() {
         />
 
         <MenuSidebar
-          namaMenu="Minggu 1"
-          basePath="/minggu_1"
+          namaMenu="Minggu 2"
+          basePath="/Tailwind_CSS"
           items={[
             {
-              nama: "JSX",
-              link: "Jsx_1",
+              nama: "Grid",
+              link: "Grid",
             },
             {
-              nama: "Component",
-              link: "Component_2",
-            },
-            {
-              nama: "Props",
-              link: "Props_3",
-            },
-            {
-              nama: "Event Klik",
-              link: "Event_4",
-            },
-            {
-              nama: "Latihan 1",
-              link: "Latihan_1",
+              nama: "Responsive",
+              link: "Responsive",
             },
           ]}
         />

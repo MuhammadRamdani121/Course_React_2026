@@ -26,7 +26,7 @@ export default function Navbar() {
             namaMenu="React JS"
             items={[
               {
-                nama: "JSX 1",
+                nama: "Dasar React",
                 link: "/React_JS/Jsx_1",
               },
               {
@@ -56,14 +56,14 @@ export default function Navbar() {
           <NavItems link="/" nama="Home" />
 
           <MenuNavbar
-            namaMenu="React JS"
+            namaMenu="React JSs"
             items={[
               {
-                nama: "JSX 1",
+                nama: "Dasar React",
                 link: "/React_JS/Jsx_1",
               },
               {
-                nama: "Component 2",
+                nama: "Component 2asdasd",
                 link: "/React_JS/Component_2",
               },
             ]}

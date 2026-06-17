@@ -8,6 +8,7 @@ import Props_3 from "../components/React_JS/Props_3";
 import Event_4 from "../components/React_JS/Event_4";
 import Latihan_1 from "../components/React_JS/Latihan_1/Latihan_1";
 import Warna from "../components/Tailwind_CSS/DasarTailwind/Warna";
+import UkuranText from "../components/Tailwind_CSS/DasarTailwind/UkuranText";
 
 export const router = createBrowserRouter([
   {
@@ -54,10 +55,10 @@ export const router = createBrowserRouter([
         element: <Warna />,
       },
 
-      // {
-      //   path: "Component_2",
-      //   element: <Component_2 />,
-      // },
+      {
+        path: "UkuranText",
+        element: <UkuranText />,
+      },
       // {
       //   path: "Props_3",
       //   element: <Props_3 />,
