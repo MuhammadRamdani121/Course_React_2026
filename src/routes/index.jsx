@@ -7,7 +7,7 @@ import Component_2 from "../components/React_JS/Component_2";
 import Props_3 from "../components/React_JS/Props_3";
 import Event_4 from "../components/React_JS/Event_4";
 import Latihan_1 from "../components/React_JS/Latihan_1/Latihan_1";
-import Warna from "../components/Tailwind_CSS/Warna";
+import Warna from "../components/Tailwind_CSS/DasarTailwind/Warna";
 
 export const router = createBrowserRouter([
   {

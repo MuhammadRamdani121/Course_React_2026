@@ -7,7 +7,7 @@ export default function MenuNavbar({ namaMenu, items }) {
         {namaMenu} ▼
       </button>
 
-      <div className="absolute top-full left-0 hidden min-w-40 rounded-md bg-white text-black shadow-lg group-hover:block">
+      <div className="absolute top-full left-0 z-50 hidden min-w-40 overflow-hidden rounded-md bg-white text-black shadow-lg group-hover:block">
         {items.map((item, index) => (
           <NavItems
             key={index}

@@ -9,14 +9,11 @@ export default function MenuSidebar({
 }) {
   const location = useLocation();
 
-  // apakah sekarang berada di route ini
   const isActiveRoute =
     location.pathname.startsWith(basePath);
 
-  // state buka/tutup manual
   const [open, setOpen] = useState(false);
 
-  // agar auto open hanya sekali saat masuk route
   const prevPath = useRef("");
 
   useEffect(() => {
@@ -31,17 +28,30 @@ export default function MenuSidebar({
   }, [location.pathname, isActiveRoute]);
 
   return (
-    <div className="mb-2">
+    <div className="w-full border-b border-gray-200">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between rounded p-2 hover:bg-gray-200"
+        className="flex w-full items-center justify-between px-4 py-3 text-left hover:bg-gray-100"
       >
-        <span>{namaMenu}</span>
-        <span>{open ? "▼" : "➤"}</span>
+        <span className="font-medium">{namaMenu}</span>
+
+        <span
+          className={`transition-transform duration-300 ${
+            open ? "rotate-90" : ""
+          }`}
+        >
+          ➤
+        </span>
       </button>
 
-      {open && (
-        <div className="mt-1 ml-4 flex flex-col gap-1">
+      <div
+        className={`overflow-hidden transition-all duration-300 ${
+          open
+            ? "max-h-96 opacity-100"
+            : "max-h-0 opacity-0"
+        }`}
+      >
+        <div className="ml-4 flex flex-col gap-1 py-2">
           {items.map((item) => (
             <NavItems
               key={item.link}
@@ -50,7 +60,7 @@ export default function MenuSidebar({
             />
           ))}
         </div>
-      )}
+      </div>
     </div>
   );
 }
