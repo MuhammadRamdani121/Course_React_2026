@@ -2,7 +2,7 @@ export default function Warna() {
   return (
     <>
       <main>
-        <h1 className="text-center text-2xl font-bold">
+        <h1 className="pb-6 text-center text-4xl font-bold">
           Style Untuk Warna
         </h1>
 

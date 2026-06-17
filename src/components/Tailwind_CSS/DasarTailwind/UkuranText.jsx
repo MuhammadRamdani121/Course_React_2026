@@ -18,9 +18,9 @@ export default function UkuranText() {
           <article className="w-1/2">
             <pre className="flex flex-col items-center justify-center">
               <code>{`<h1 className="text-sm"></h1>`}</code>
-              <code>{`<h1 className="text-sm"></h1>`}</code>
-              <code>{`<h1 className="text-sm"></h1>`}</code>
-              <code>{`<h1 className="text-sm"></h1>`}</code>
+              <code>{`<h1 className="text-lg"></h1>`}</code>
+              <code>{`<h1 className="text-2xl"></h1>`}</code>
+              <code>{`<h1 className="text-4xl></h1>`}</code>
             </pre>
           </article>
         </section>
