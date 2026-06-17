@@ -25,13 +25,14 @@ export default function Index() {
               link: "Warna",
             },
             {
-              nama: "Size Text",
-              link: "UkuranText",
-            },
-            {
               nama: "Typo Graphy",
               link: "Typography",
             },
+            {
+              nama: "Spacing",
+              link: "Spacing",
+            },
+
             {
               nama: "Flexbox",
               link: "Flexbox",

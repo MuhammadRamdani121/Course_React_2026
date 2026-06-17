@@ -8,8 +8,8 @@ import Props_3 from "../components/React_JS/Props_3";
 import Event_4 from "../components/React_JS/Event_4";
 import Latihan_1 from "../components/React_JS/Latihan_1/Latihan_1";
 import Warna from "../components/Tailwind_CSS/DasarTailwind/Warna";
-import UkuranText from "../components/Tailwind_CSS/DasarTailwind/UkuranText";
 import Typography from "../components/Tailwind_CSS/DasarTailwind/Typography";
+import Spacing from "../components/Tailwind_CSS/DasarTailwind/Spacing";
 
 export const router = createBrowserRouter([
   {
@@ -55,19 +55,14 @@ export const router = createBrowserRouter([
         path: "Warna",
         element: <Warna />,
       },
-
-      {
-        path: "UkuranText",
-        element: <UkuranText />,
-      },
       {
         path: "Typography",
         element: <Typography />,
       },
-      // {
-      //   path: "Event_4",
-      //   element: <Event_4 />,
-      // },
+      {
+        path: "Spacing",
+        element: <Spacing />,
+      },
       // {
       //   path: "Latihan_1",
       //   element: <Latihan_1 />,
