@@ -29,8 +29,8 @@ export default function Index() {
               link: "UkuranText",
             },
             {
-              nama: "Sizing",
-              link: "Sizing",
+              nama: "Ketebalan Font",
+              link: "KetebalanFont",
             },
             {
               nama: "Flexbox",
