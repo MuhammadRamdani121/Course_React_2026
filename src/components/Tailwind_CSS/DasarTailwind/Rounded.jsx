@@ -8,6 +8,8 @@ export default function Rounded() {
             <h1>Rounded</h1>
             <h1>Rounded md</h1>
             <h1>Rounded lg</h1>
+            <h1>Rounded xl</h1>
+            <h1>Rounded full</h1>
           </article>
           <article></article>
         </section>
