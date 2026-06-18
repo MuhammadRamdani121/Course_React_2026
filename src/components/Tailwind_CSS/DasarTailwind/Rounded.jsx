@@ -5,7 +5,9 @@ export default function Rounded() {
       <main>
         <section>
           <article>
-            <h1></h1>
+            <h1>Rounded</h1>
+            <h1>Rounded md</h1>
+            <h1>Rounded lg</h1>
           </article>
           <article></article>
         </section>
