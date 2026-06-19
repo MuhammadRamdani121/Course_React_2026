@@ -11,7 +11,11 @@ export default function Rounded() {
             <h1 className="rounded-xl">Rounded xl</h1>
             <h1 className="rounded-full">Rounded full</h1>
           </article>
-          <article></article>
+          <article>
+            <pre>
+              <code></code>
+            </pre>
+          </article>
         </section>
       </main>
     </div>
