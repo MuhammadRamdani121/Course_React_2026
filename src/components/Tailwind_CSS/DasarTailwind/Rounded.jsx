@@ -14,6 +14,10 @@ export default function Rounded() {
           <article>
             <pre>
               <code>{` <h1 className="rounded">Rounded</h1>`}</code>
+              <code>{`   <h1 className="rounded-md">Rounded md</h1>`}</code>
+              <code>{` <h1 className="rounded-lg">Rounded lg</h1>`}</code>
+              <code>{`  <h1 className="rounded-xl">Rounded xl</h1>`}</code>
+              <code>{` <h1 className="rounded-full">Rounded full</h1>`}</code>
             </pre>
           </article>
         </section>
