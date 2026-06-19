@@ -13,7 +13,7 @@ export default function Rounded() {
           </article>
           <article>
             <pre>
-              <code></code>
+              <code>{` <h1 className="rounded">Rounded</h1>`}</code>
             </pre>
           </article>
         </section>
