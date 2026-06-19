@@ -10,6 +10,7 @@ import Latihan_1 from "../components/React_JS/Latihan_1/Latihan_1";
 import Warna from "../components/Tailwind_CSS/DasarTailwind/Warna";
 import Typography from "../components/Tailwind_CSS/DasarTailwind/Typography";
 import Spacing from "../components/Tailwind_CSS/DasarTailwind/Spacing";
+import Flexbox from "../components/Tailwind_CSS/Layout/Flexbox";
 
 export const router = createBrowserRouter([
   {
@@ -54,6 +55,29 @@ export const router = createBrowserRouter([
       {
         path: "Warna",
         element: <Warna />,
+      },
+      {
+        path: "Typography",
+        element: <Typography />,
+      },
+      {
+        path: "Spacing",
+        element: <Spacing />,
+      },
+      // {
+      //   path: "Latihan_1",
+      //   element: <Latihan_1 />,
+      // },
+    ],
+  },
+
+  {
+    path: "/Tailwind_CSS",
+    element: <TailwindCss />,
+    children: [
+      {
+        path: "Flexbox",
+        element: <Flexbox />,
       },
       {
         path: "Typography",

@@ -49,8 +49,8 @@ export default function Index() {
           basePath="/Tailwind_CSS"
           items={[
             {
-              nama: "Grid",
-              link: "Grid",
+              nama: "Flex box",
+              link: "Flexbox",
             },
             {
               nama: "Responsive",

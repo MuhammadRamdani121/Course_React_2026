@@ -43,6 +43,10 @@ export default function Navbar() {
                 nama: "Dasar Tailwind",
                 link: "/Tailwind_CSS/Warna",
               },
+              {
+                nama: "Layout",
+                link: "/Tailwind_CSS/Flexbox",
+              },
             ]}
           />
 
