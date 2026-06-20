@@ -10,20 +10,41 @@ export default function Flexbox() {
           <h1 className="text-center">
             Flex default (Cols)
           </h1>
-          <div className="flex gap-2 border">
-            <h1 className="border border-red-400">
-              Contoh kotak 1
-            </h1>
-            <h1 className="border border-amber-400">
-              Contoh kotak 2
-            </h1>
-            <h1 className="border border-blue-400">
-              Contoh kotak 3
-            </h1>
-            <h1 className="border border-yellow-400">
-              Contoh kotak 4
-            </h1>
-          </div>
+          <article className="grid grid-cols-2 items-center justify-center gap-2">
+            <aside className="flex gap-2 border">
+              <h1 className="border border-red-400">
+                Contoh kotak 1
+              </h1>
+              <h1 className="border border-amber-400">
+                Contoh kotak 2
+              </h1>
+              <h1 className="border border-blue-400">
+                Contoh kotak 3
+              </h1>
+              <h1 className="border border-yellow-400">
+                Contoh kotak 4
+              </h1>
+            </aside>
+
+            <aside className="border">
+              <pre className="border">
+                <code className="flex">{`<aside className="flex gap-2 border">
+<h1 className="border border-red-400">
+Contoh kotak 1
+</h1>
+<h1 className="border border-amber-400">
+Contoh kotak 2
+</h1>
+<h1 className="border border-blue-400">
+Contoh kotak 3
+</h1>
+<h1 className="border border-yellow-400">
+Contoh kotak 4
+</h1>
+</aside>`}</code>
+              </pre>
+            </aside>
+          </article>
         </section>
 
         <section className="border">
