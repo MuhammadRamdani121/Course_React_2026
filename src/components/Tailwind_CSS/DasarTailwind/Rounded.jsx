@@ -6,7 +6,7 @@ export default function Rounded() {
       </h1>
       <main>
         <section className="grid grid-cols-2 items-center justify-center border">
-          <article className="flex flex-col items-center justify-center gap-2">
+          <article className="flex flex-col items-center justify-center gap-2 border">
             <h1 className="rounded border">Rounded</h1>
             <h1 className="rounded-md border p-2">
               Rounded md
@@ -21,8 +21,8 @@ export default function Rounded() {
               Rounded full
             </h1>
           </article>
-          <article>
-            <pre className="flex flex-col gap-2">
+          <article className="border">
+            <pre className="flex flex-col items-center justify-center gap-6">
               <code>{`<h1 className="rounded"></h1>`}</code>
               <code>{`<h1 className="rounded-md"></h1>`}</code>
               <code>{`<h1 className="rounded-lg"></h1>`}</code>
