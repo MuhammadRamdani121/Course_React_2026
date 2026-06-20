@@ -1,7 +1,9 @@
 export default function Border() {
   return (
     <div>
-      <h1>Border</h1>
+      <h1 className="text-center text-4xl font-bold">
+        Border
+      </h1>
       <main>
         <section className="grid grid-cols-2 items-center justify-center border text-center">
           <article className="grid gap-1">

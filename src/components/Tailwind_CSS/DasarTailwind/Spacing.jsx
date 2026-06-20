@@ -2,7 +2,9 @@ export default function Spacing() {
   return (
     <>
       <main>
-        <h1 className="text-center text-4xl">Spacing</h1>
+        <h1 className="text-center text-4xl font-bold">
+          Spacing
+        </h1>
 
         <section className="grid grid-cols-3 items-center justify-center gap-1 border">
           <article className="grid items-center justify-center gap-8 border text-center">
