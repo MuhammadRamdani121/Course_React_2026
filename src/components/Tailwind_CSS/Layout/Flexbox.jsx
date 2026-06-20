@@ -14,29 +14,51 @@ export default function Flexbox() {
             <h1 className="border border-red-400">
               Contoh kotak 1
             </h1>
-            <h1 className="border">Contoh kotak 2</h1>
-            <h1 className="border">Contoh kotak 3</h1>
-            <h1 className="border">Contoh kotak 4</h1>
+            <h1 className="border border-amber-400">
+              Contoh kotak 2
+            </h1>
+            <h1 className="border border-blue-400">
+              Contoh kotak 3
+            </h1>
+            <h1 className="border border-yellow-400">
+              Contoh kotak 4
+            </h1>
           </div>
         </section>
 
         <section className="border">
           <h1 className="text-center">Flex Baris (Row)</h1>
           <div className="flex flex-row gap-2 border">
-            <h1 className="border">Contoh kotak 1</h1>
-            <h1 className="border">Contoh kotak 2</h1>
-            <h1 className="border">Contoh kotak 3</h1>
-            <h1 className="border">Contoh kotak 4</h1>
+            <h1 className="border border-red-400">
+              Contoh kotak 1
+            </h1>
+            <h1 className="border border-amber-400">
+              Contoh kotak 2
+            </h1>
+            <h1 className="border border-blue-400">
+              Contoh kotak 3
+            </h1>
+            <h1 className="border border-yellow-400">
+              Contoh kotak 4
+            </h1>
           </div>
         </section>
 
         <section>
           <h1 className="text-center">Flex Kolom (cols)</h1>
           <div className="flex flex-col gap-2 border">
-            <h1 className="border">Contoh kotak 1</h1>
-            <h1 className="border">Contoh kotak 2</h1>
-            <h1 className="border">Contoh kotak 3</h1>
-            <h1 className="border">Contoh kotak 4</h1>
+            <h1 className="border border-red-400">
+              Contoh kotak 1
+            </h1>
+            <h1 className="border border-amber-400">
+              Contoh kotak 2
+            </h1>
+            <h1 className="border border-blue-400">
+              Contoh kotak 3
+            </h1>
+            <h1 className="border border-yellow-400">
+              Contoh kotak 4
+            </h1>
           </div>
         </section>
 
@@ -45,10 +67,18 @@ export default function Flexbox() {
             Flex Reverse Baris (Row)
           </h1>
           <div className="flex flex-row-reverse gap-2 border">
-            <h1 className="border">Contoh kotak 1</h1>
-            <h1 className="border">Contoh kotak 2</h1>
-            <h1 className="border">Contoh kotak 3</h1>
-            <h1 className="border">Contoh kotak 4</h1>
+            <h1 className="border border-red-400">
+              Contoh kotak 1
+            </h1>
+            <h1 className="border border-amber-400">
+              Contoh kotak 2
+            </h1>
+            <h1 className="border border-blue-400">
+              Contoh kotak 3
+            </h1>
+            <h1 className="border border-yellow-400">
+              Contoh kotak 4
+            </h1>
           </div>
         </section>
 
