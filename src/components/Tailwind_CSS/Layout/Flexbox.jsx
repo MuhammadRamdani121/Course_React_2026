@@ -49,38 +49,64 @@ Contoh kotak 4
 
         <section className="border">
           <h1 className="text-center">Flex Baris (Row)</h1>
-          <div className="flex flex-row gap-2 border">
-            <h1 className="border border-red-400">
-              Contoh kotak 1
-            </h1>
-            <h1 className="border border-amber-400">
-              Contoh kotak 2
-            </h1>
-            <h1 className="border border-blue-400">
-              Contoh kotak 3
-            </h1>
-            <h1 className="border border-yellow-400">
-              Contoh kotak 4
-            </h1>
-          </div>
+          <article>
+            <div className="flex flex-row gap-2 border">
+              <h1 className="border border-red-400">
+                Contoh kotak 1
+              </h1>
+              <h1 className="border border-amber-400">
+                Contoh kotak 2
+              </h1>
+              <h1 className="border border-blue-400">
+                Contoh kotak 3
+              </h1>
+              <h1 className="border border-yellow-400">
+                Contoh kotak 4
+              </h1>
+            </div>
+          </article>
         </section>
 
         <section>
           <h1 className="text-center">Flex Kolom (cols)</h1>
-          <div className="flex flex-col gap-2 border">
-            <h1 className="border border-red-400">
-              Contoh kotak 1
-            </h1>
-            <h1 className="border border-amber-400">
-              Contoh kotak 2
-            </h1>
-            <h1 className="border border-blue-400">
-              Contoh kotak 3
-            </h1>
-            <h1 className="border border-yellow-400">
-              Contoh kotak 4
-            </h1>
-          </div>
+          <article className="grid grid-cols-2">
+            <aside>
+              <div className="flex flex-col gap-2 border">
+                <h1 className="border border-red-400">
+                  Contoh kotak 1
+                </h1>
+                <h1 className="border border-amber-400">
+                  Contoh kotak 2
+                </h1>
+                <h1 className="border border-blue-400">
+                  Contoh kotak 3
+                </h1>
+                <h1 className="border border-yellow-400">
+                  Contoh kotak 4
+                </h1>
+              </div>
+            </aside>
+            <aside>
+              <pre>
+                <code>{`<aside>
+<div className="flex flex-col gap-2 border">
+  <h1 className="border border-red-400">
+    Contoh kotak 1
+  </h1>
+  <h1 className="border border-amber-400">
+    Contoh kotak 2
+  </h1>
+  <h1 className="border border-blue-400">
+    Contoh kotak 3
+  </h1>
+  <h1 className="border border-yellow-400">
+    Contoh kotak 4
+  </h1>
+</div>
+</aside>`}</code>
+              </pre>
+            </aside>
+          </article>
         </section>
 
         <section>
