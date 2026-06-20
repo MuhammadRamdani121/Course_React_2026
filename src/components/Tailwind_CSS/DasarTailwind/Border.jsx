@@ -3,8 +3,8 @@ export default function Border() {
     <div>
       <h1>Border</h1>
       <main>
-        <section>
-          <article>
+        <section className="grid grid-cols-2 items-center justify-center border text-center">
+          <article className="grid gap-1">
             <h1 className="border-2">border</h1>
             <h1 className="border-2">
               border ketebalan border
@@ -13,8 +13,8 @@ export default function Border() {
               Background border
             </h1>
           </article>
-          <aside>
-            <pre>
+          <aside className="border">
+            <pre className="flex flex-col gap-2 border">
               <code>
                 {` <h1 className="border-2">border</h1>`}
               </code>
