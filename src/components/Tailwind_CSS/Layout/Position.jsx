@@ -33,7 +33,9 @@ export default function Position() {
           <h1>Z-index</h1>
           <span>Mengatur Posisi index</span>
           <article>
-            <h1></h1>
+            <h1>z-10 (diatas 10)</h1>
+            <h1>z-20 (diatas 20)</h1>
+            <h1>z-50 (diatas 50)</h1>
           </article>
         </section>
       </main>
