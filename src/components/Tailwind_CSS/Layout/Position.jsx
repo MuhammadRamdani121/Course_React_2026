@@ -28,6 +28,14 @@ export default function Position() {
             </aside>
           </article>
         </section>
+
+        <section>
+          <h1>Z-index</h1>
+          <span>Mengatur Posisi index</span>
+          <article>
+            <h1></h1>
+          </article>
+        </section>
       </main>
     </div>
   );
