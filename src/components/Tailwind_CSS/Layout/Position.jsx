@@ -38,6 +38,18 @@ export default function Position() {
             <h1>z-50 (diatas 50)</h1>
           </article>
         </section>
+
+        <section>
+          <h1>Hover</h1>
+          <span>
+            Ada cursor mouse yg mendekat dia akan ada hover
+          </span>
+          <article>
+            <h1>hover:bg-blue-600</h1>
+            <h1>hover:text-white</h1>
+            <h1>hover:scale-105</h1>
+          </article>
+        </section>
       </main>
     </div>
   );
