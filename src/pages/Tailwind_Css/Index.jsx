@@ -18,7 +18,7 @@ export default function Index() {
 
   const minggu2 = [
     { nama: "Flex box", link: "Flexbox" },
-    { nama: "Responsive", link: "Responsive" },
+    { nama: "Position", link: "Position" },
   ];
 
   return (

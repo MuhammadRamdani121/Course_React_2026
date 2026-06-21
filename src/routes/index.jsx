@@ -15,6 +15,7 @@ import Border from "../components/Tailwind_CSS/DasarTailwind/Border";
 import Rounded from "../components/Tailwind_CSS/DasarTailwind/Rounded";
 import Flexbox from "../components/Tailwind_CSS/Layout/Flexbox";
 import Shadow from "../components/Tailwind_CSS/DasarTailwind/Shadow";
+import Position from "../components/Tailwind_CSS/Layout/Position";
 
 export const router = createBrowserRouter([
   {
@@ -96,8 +97,8 @@ export const router = createBrowserRouter([
         element: <Flexbox />,
       },
       {
-        path: "Typography",
-        element: <Typography />,
+        path: "Position",
+        element: <Position />,
       },
       {
         path: "Spacing",
