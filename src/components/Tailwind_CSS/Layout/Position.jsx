@@ -45,9 +45,15 @@ export default function Position() {
             Ada cursor mouse yg mendekat dia akan ada hover
           </span>
           <article>
-            <h1>hover:bg-blue-600</h1>
-            <h1>hover:text-white</h1>
-            <h1>hover:scale-105</h1>
+            <h1 className="hover:bg-blue-600">
+              hover:bg-blue-600
+            </h1>
+            <h1 className="hover:text-white">
+              hover:text-white
+            </h1>
+            <h1 className="hover:scale-0">
+              hover:scale-105
+            </h1>
           </article>
         </section>
       </main>
