@@ -56,6 +56,16 @@ export default function Position() {
             </h1>
           </article>
         </section>
+
+        <section>
+          <h1>Transition</h1>
+          <span>agar aimasi haluss</span>
+          <article>
+            <h1>transition</h1>
+            <h1>duration</h1>
+            <h1>ease-in-out</h1>
+          </article>
+        </section>
       </main>
     </div>
   );
