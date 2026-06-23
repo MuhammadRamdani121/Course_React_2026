@@ -12,7 +12,7 @@ export default function Home() {
           <LoginPage />
         </section>
         <hr />
-        <section>
+        <section className="">
           <ProfileCard />
         </section>
       </main>
