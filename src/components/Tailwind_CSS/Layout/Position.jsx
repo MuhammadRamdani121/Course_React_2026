@@ -61,9 +61,28 @@ export default function Position() {
           <h1>Transition</h1>
           <span>agar aimasi haluss</span>
           <article>
-            <h1>transition</h1>
+            <h1 className="transition duration-75 ease-in-out">
+              transition
+            </h1>
             <h1>duration</h1>
             <h1>ease-in-out</h1>
+          </article>
+        </section>
+
+        <section>
+          <h1>Cursor</h1>
+
+          <article>
+            <h1>cursor-pointer</h1>
+            <h1>cursor-not-allowed</h1>
+          </article>
+        </section>
+
+        <section>
+          <h1>opacity</h1>
+          <article>
+            <h1>opacity-50</h1>
+            <h1>opacity-100</h1>
           </article>
         </section>
       </main>
