@@ -4,6 +4,7 @@ import LoginPage from "../components/Tailwind_CSS/Latihan/Minggu1/LoginPage";
 import ProfileCard from "../components/Tailwind_CSS/Latihan/Minggu2/ProfileCard";
 import Badge from "../components/Tailwind_CSS/Latihan/Minggu4/Badge";
 import Dropdown from "../components/Tailwind_CSS/Latihan/Minggu5/Dropdown";
+import Modal from "../components/Tailwind_CSS/Latihan/Minggu6/Modal";
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
         <hr />
         <section>
           <Dropdown />
+        </section>
+        <hr />
+        <section>
+          <Modal />
         </section>
       </main>
     </div>
